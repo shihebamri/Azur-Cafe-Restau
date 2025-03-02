@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --golden: #c5a777;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.text-golden {
+  color: var(--golden);
+}
+
+.bg-golden {
+  background-color: var(--golden);
+}
+
